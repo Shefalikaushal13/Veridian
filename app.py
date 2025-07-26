@@ -54,11 +54,9 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    .main .block-container {
+    html,body, .main .block-container {
         max-width: 100%;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-top: 0rem;
+        padding: 1rem 2rem 2rem;
     }
     .hero-text h1 {
         font-size: 3rem;
