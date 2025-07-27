@@ -54,15 +54,17 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    html,body, .main .block-container {
-        max-width: 100%;
-        padding: 1rem 2rem 2rem;
+    html, body, .main .block-container {
+    max-width: 100%;
+    padding: 1rem 2rem 2rem;
+    margin: 0;
     }
 
     .hero-text h1 {
         font-size: 3rem;
         color: #43B28C; /* Veridian green */
         text-align: center;
+        margin-top: 0;
         margin-bottom: 0.2rem;
     }
 
@@ -70,6 +72,7 @@ st.markdown(
         font-size: 1.5rem;
         color: #43B28C; /* Veridian green */
         text-align: center;
+        margin-top: 0;
         margin-bottom: 0.2rem;
         white-space: nowrap;
     }
@@ -78,18 +81,26 @@ st.markdown(
         font-size: 1.5rem;
         color: #E0E6E9; /* soft neutral */
         text-align: center;
-        margin-bottom: 1rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
     }
 
     .hero-text h6 {
         font-size: 1.1rem;
         color: #E0E6E9; /* soft neutral */
         text-align: center;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
     }
 
+    /* Reduce gap below hero section */
+    .hero-text {
+        margin-bottom: -10px;
+        padding-bottom: 0;
+    }
     div.stButton > button:first-child {
-        font-size: 2.2rem;
-        font-weight: 600;
+        font-size: 2.5rem;
+        font-weight: bold; !important;
         padding: 0.8rem 2rem;
         color: #ffffff !important;
         background-color: transparent;
@@ -105,8 +116,8 @@ st.markdown(
         background-color: #43B28C;
         color: #ffffff !important;
         border-color: #43B28C;
-        outline: none;
-        box-shadow: none;
+        outline: none !important;
+        box-shadow: 0 0 4px #43B28C99
     }
 
     label {
@@ -154,9 +165,11 @@ st.markdown(
         <h1 style='margin-top: -30px;'>Veridian</h1>
         <h2 style='margin-top: -30px;'>Track, Improve, and Optimize Your Resume for ATS</h2>
         <h4>Stop Getting Ignored by Recruiters</h4>
-        <h6>Most resumes fail before a human even sees them<br>
+        <h6 style='margin-bottom: 0rem;'>Most resumes fail before a human even sees them<br>
         Veridian helps you beat the bots and get noticed for the right reasons<br>
         No sugarcoating, just real, AI-powered feedback that actually works</h6>
+    </div>
+    <div class="custom-container">
     </div>
     """,
     unsafe_allow_html=True
