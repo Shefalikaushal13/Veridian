@@ -32,6 +32,9 @@ Each module runs independently, giving users full control over what they want to
 ## 🖼️ Demo
 
 🔗 **Live App**: [https://shefalikaushal13-veridian-app-st6cqt.streamlit.app/](https://shefalikaushal13-veridian-app-st6cqt.streamlit.app/)
+<img width="1919" height="904" alt="Screenshot 2025-07-27 200900" src="https://github.com/user-attachments/assets/86ef25ca-4cac-4144-9824-2f0fd96152d6" />
+<img width="1919" height="901" alt="Screenshot 2025-07-27 201217" src="https://github.com/user-attachments/assets/e78b147a-69c8-4a70-83ce-3aa49012a93a" />
+<img width="1919" height="901" alt="Veridian3" src="https://github.com/user-attachments/assets/ddd46c84-b918-4ccb-8042-cf8fa4b837ba" />
 
 ---
 
