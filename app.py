@@ -45,12 +45,6 @@ if "show_form" not in st.session_state:
 
 # Streamlit App
 
-st.set_page_config(
-    page_title="Veridian",
-    page_icon="Veridian-favicon.png",
-    layout="centered"
-)
-
 st.markdown(
     """
     <style>
@@ -58,45 +52,89 @@ st.markdown(
         max-width: 100%;
         padding: 1rem 2rem 2rem;
     }
+
     .hero-text h1 {
         font-size: 3rem;
-        color: #08fdd8;
+        color: #43B28C; /* Veridian green */
         text-align: center;
         margin-bottom: 0.2rem;
     }
+
     .hero-text h2 {
         font-size: 1.5rem;
-        color: #08fdd8;
+        color: #43B28C; /* Veridian green */
         text-align: center;
         margin-bottom: 0.2rem;
         white-space: nowrap;
     }
+
     .hero-text h4 {
         font-size: 1.5rem;
-        color: #c0c6cc;
+        color: #E0E6E9; /* soft neutral */
         text-align: center;
         margin-bottom: 1rem;
     }
+
     .hero-text h6 {
         font-size: 1.1rem;
-        color: #9da5b4;
+        color: #E0E6E9; /* soft neutral */
         text-align: center;
     }
-    div.stButton button {
+
+    div.stButton > button:first-child {
         font-size: 2.2rem;
-        padding: 0.75rem 2rem;
         font-weight: 600;
-        color: #ffffff;
+        padding: 0.8rem 2rem;
+        color: #ffffff !important;
+        background-color: transparent;
+        border: 3px solid #43B28C;
         border-radius: 8px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        margin-top: 2rem;
     }
+
+    div.stButton > button:first-child:hover,
+    div.stButton > button:first-child:active,
+    div.stButton > button:first-child:focus {
+        background-color: #43B28C;
+        color: #ffffff !important;
+        border-color: #43B28C;
+        outline: none;
+        box-shadow: none;
+    }
+
     label {
         font-size: 2rem !important;
         font-weight: 600;
     }
+   
+    div[data-testid="column"] button {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 0.6rem 1.2rem;
+        color: #ffffff !important;
+        background-color: transparent;
+        border: 2px solid #43B28C;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        margin-top: 0.5rem;
+    }
+
+    div[data-testid="column"] button:hover,
+    div[data-testid="column"] button:active,
+    div[data-testid="column"] button:focus {
+        background-color: #43B28C;
+        color: #ffffff !important;
+        border-color: #43B28C;
+        outline: none;
+        box-shadow: none;
+    }
+
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 # Lottie animation
 st.markdown("<div style='display:flex; justify-content:center; position: relative; top: -300px;'>", unsafe_allow_html=True)
