@@ -93,8 +93,7 @@ To help users grow professionally by making their resumes **smarter**, more **ho
 
 ## ✍️ Author
 
-**Shefali Kaushal**  
-📍 India  
+**Shefali Kaushal**   
 🔗 [LinkedIn](https://www.linkedin.com/in/shefalikaushal13)  
 🌐 [Peerlist](https://peerlist.io/shefalikaushal)
 
