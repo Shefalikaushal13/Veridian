@@ -90,7 +90,7 @@ st.markdown(
         color: #E0E6E9; /* soft neutral */
         text-align: center;
         margin-top: 0;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0;
     }
 
     /* Reduce gap below hero section */
@@ -165,7 +165,7 @@ st.markdown(
         <h1 style='margin-top: -30px;'>Veridian</h1>
         <h2 style='margin-top: -30px;'>Track, Improve, and Optimize Your Resume for ATS</h2>
         <h4>Stop Getting Ignored by Recruiters</h4>
-        <h6 style='margin-bottom: 0rem;'>Most resumes fail before a human even sees them<br>
+        <h6>Most resumes fail before a human even sees them<br>
         Veridian helps you beat the bots and get noticed for the right reasons<br>
         No sugarcoating, just real, AI-powered feedback that actually works</h6>
     </div>
