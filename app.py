@@ -45,6 +45,12 @@ if "show_form" not in st.session_state:
 
 # Streamlit App
 
+st.set_page_config(
+    page_title="Veridian",
+    page_icon="Veridian-favicon.png",
+    layout="centered"
+)
+
 st.markdown(
     """
     <style>
